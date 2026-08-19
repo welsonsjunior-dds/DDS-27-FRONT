@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+
+        <!-- FIELDSET - SEGMENTA VISUALMENTE O FORMULARIO -->
+        <fieldset>
+            <!-- LEGEND - TITULO DO SEGMENTO -->
+            <legend> <h3> Dados Pessoais</h3></legend>
+
+            <label for="Nome">Nome:</label>
+            <input type="text" name="Nome" id="Nome">
+            <!-- FIM CAIXA NOME -->
+
+            <br></br>
+
+            <h1>CAIXA DE DATA DE NASCIMENTO</h1>
+            <!-- CAIXA DE DATA DE NASCIMENTO -->
+            
+            <!-- DATE - APENAS A DATA  -->
+            <label for="dt_nascimento"> Data</label>
+            <input type="date" name="dt_nascimento" id="dt_nascimento"><br></br>
+            
+            <!-- DATETIME.LOCAL - DATA E HORA -->
+             <label for="datahora">Data e hora</label>
+            <input type="datetime-local" id="datahora" name="datahora"> <br></br>
+
+            <!-- TIME - APENAS A HORA -->
+             <label for="hora">Hora</label>
+            <input type="time" id="hora" name="hora">
+             <!-- FIM DA CAIXA DE DATA DE NASCIMENTO -->
+            <br></br>
+
+
+            <h1>CAIXA DE NUMEROS</h1>
+            <!-- CAIXA DE NUMEROS -->
+            <label for="filhos">Quantidade de filhos</label>
+            <input type="number" name="filhos" id="filhos" min="-3" max="10" step="0.5" value="5">
+
+            <!-- FIM DA CAIXA DE NUMEROS -->
+
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
