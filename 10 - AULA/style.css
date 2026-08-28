@@ -1,0 +1,45 @@
+
+#topo{
+    border-color: chocolate;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+/* SELECIONA TODOS OS ELEMENTOS */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Seletor por TAG */
+body {
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+/* SELETOR POR ID */
+#topo{
+    background-color: red;
+}
+
+/* SELETOR POR CLASS */
+
+.texto-top{
+    font-style: italic;
+}
+
+/* Estilizar os elementos com a class bloco */
+.bloco{
+    background-color:aquamarine;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid black;
+
+    border-radius: 10px;
+}
