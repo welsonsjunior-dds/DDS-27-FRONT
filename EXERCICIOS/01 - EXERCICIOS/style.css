@@ -1,0 +1,41 @@
+body{
+    background-color: red;
+}
+
+/* HEADER */
+#topo{
+    color: aliceblue;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 70px;
+}
+
+
+/* MAIN */
+.bloco{
+    background-color: green;
+    border: 2px solid black;
+    text-align: center;
+    
+     padding-top: 5px;
+
+     /* ----------------------------------------------------- */
+   margin: 50px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+/*  FOOTER */
+#baixo{
+    color: aliceblue;
+    background-color:darkgrey;
+    text-align: center;
+    border: 2px;
+    padding: 70px;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
