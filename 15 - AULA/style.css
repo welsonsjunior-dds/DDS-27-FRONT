@@ -72,7 +72,7 @@ a{
     transition: 0.3s;
 }
 
-.menu a:houver{
+.menu a:hover{
     background-color: red;
     transition: 0.2s;
 }
